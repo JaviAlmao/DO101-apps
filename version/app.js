@@ -12,6 +12,14 @@ app.get('/', function (req, res) {
 
 });
 
+app.get('/test', function (req, res) {
+
+  //send the response to the client
+  res.send("This is a test version");
+
+});
+
+
 app.listen(8080, function () {
   console.log('Server listening on port 8080...');
 });
