@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 app.get('/test', function (req, res) {
 
   //send the response to the client
-  res.send("This is a test version");
+  res.send("This is a test version webhook");
 
 });
 
